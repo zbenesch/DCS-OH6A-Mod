@@ -1,22 +1,63 @@
-All Rights Reserved
+Community Backup & Preservation License
 
-Copyright (c) 2026 OH-6A Mod Contributors
+ORIGINAL WORK:
+Copyright (c) 2024-2026 Tobsen & Eightball
+OH-6A Cayuse mod for DCS World (v1.7)
+OH-6A Weapons Pack (v1.2.0)
 
-This software and associated documentation files (the "Software") are provided for use with DCS World only. Reproduction, distribution, or transmission of the Software, in whole or in part, without prior written permission is strictly prohibited.
+COMMUNITY BACKUP:
+This is a backup/preservation copy of the OH-6A mod originally created by Tobsen & Eightball.
+Repository: Community backup copy (non-commercial preservation)
+Original developers: Tobsen & Eightball
 
-PERMISSIONS:
-- Personal, non-commercial use with DCS World
-- Use in DCS multiplayer sessions
-- Personal modifications for private use
+PERMISSIONS (Non-Commercial Community Use):
+✓ Personal, non-commercial use with DCS World
+✓ Use in DCS multiplayer sessions (for entertainment only)
+✓ Personal modifications for private/educational use
+✓ Distribution as-is with proper attribution (see below)
+✓ Bug fixes and minor improvements with proper credits
+✓ Community documentation and guides
 
 RESTRICTIONS:
-- Commercial use without explicit permission
-- Redistribution for profit
-- Reverse engineering of compiled binaries
-- Use outside of DCS World
-- Public modification and republication without attribution and proper licensing
+✗ Commercial use or profit-making (including donations without consent)
+✗ Claiming original authorship (must credit Tobsen & Eightball)
+✗ Redistributing compiled binaries (.dll files) without source
+✗ Use outside of DCS World
+✗ Complete reimplementation designed to replace this work
+✗ Selling, licensing, or transferring as your own work
+
+ATTRIBUTION REQUIREMENTS:
+Any distribution or modification of this work must include:
+1. Clear statement that this is a community continuation
+2. Credit to original creators: "Original development by Tobsen & Eightball"
+3. Link to original mod (if applicable)
+4. List of significant community modifications made
+
+EXAMPLE:
+"OH-6A Cayuse - Community Edition
+Original mod by Tobsen & Eightball (v1.7)
+Community continued by [Your Name]
+Modified: [List changes]"
 
 DISCLAIMER:
-This software is provided "AS-IS" without warranty of any kind, express or implied. The authors assume no responsibility for errors or omissions, or for damages resulting from the use of the information contained herein.
+This software is provided "AS-IS" without warranty of any kind, express or implied.
+The authors and community maintainers assume no responsibility for errors, omissions,
+data loss, or damages resulting from the use of this software.
 
-For licensing questions or permissions, please contact the original developers.
+The original developers (Tobsen & Eightball) have not explicitly approved this continuation.
+This fork exists to preserve the work from being lost. Use at your own risk.
+
+LEGAL NOTICE:
+This is a backup/preservation copy of the original work. All copyright is retained by the original
+developers (Tobsen & Eightball). If either original developer objects to this backup distribution,
+the repository will be taken down immediately upon request.
+
+By downloading, installing, or using this software, you agree to:
+- Use it only with DCS World
+- Not use it commercially
+- Respect the original developers' rights
+- Provide proper attribution in any distribution
+
+For questions about original licensing, contact the original developers:
+- Tobsen: [forum/contact information if available]
+- Eightball: [forum/contact information if available]

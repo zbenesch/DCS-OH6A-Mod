@@ -1,6 +1,12 @@
 # OH-6A Cayuse DCS Mod
 
-![OH-6A](https://img.shields.io/badge/DCS-Module-blue) ![Version](https://img.shields.io/badge/version-1.7-brightgreen) ![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)
+![OH-6A](https://img.shields.io/badge/DCS-Module-blue) ![Version](https://img.shields.io/badge/version-1.7-brightgreen) ![License](https://img.shields.io/badge/license-Community%20Continuation-orange)
+
+> **⚠️ Community Backup & Preservation**
+>
+> This is a backup/preservation copy of the OH-6A mod originally developed by **Tobsen & Eightball**. 
+> The original developers removed their work in March 2025. This repository preserves the mod to prevent 
+> it from being lost. Use for personal, non-commercial purposes only. See [LICENSE](LICENSE) for details.
 
 The Hughes OH-6A Cayuse is a single-engine light helicopter. Its formal name is derived from the Cayuse people, while its 'Loach' nickname comes from the acronym for the Light Observation Helicopter (LOH) program under which it was procured. During 1966, the OH-6 began service with the U.S. Army, and promptly entered active combat in the Vietnam War.
 
@@ -135,9 +141,18 @@ DCS-OH6A-Mod/
 
 ## Development
 
-### Credits
-- **Aircraft Module**: Original DCS development team
-- **Weapons Pack**: EightBall & Tobi
+### Credits & Attribution
+- **Original Development**: Tobsen & Eightball
+- **Aircraft Module (v1.7)**: Tobsen & Eightball
+- **Weapons Pack (v1.2.0)**: EightBall & Tobi
+- **Community Continuation**: zbenesch (GitHub repository maintenance)
+
+### Community Backup Notice
+This repository is a community backup/preservation of the OH-6A mod. The original developers 
+removed all public content in March 2025. This backup ensures the work is not lost.
+
+**Original developers retain all copyright.** This backup is maintained for non-commercial 
+personal use only under the terms outlined in [LICENSE](LICENSE).
 
 ### Known Limitations
 - Cockpit instruments are simulated, not fully clickable in all systems
