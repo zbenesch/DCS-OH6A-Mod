@@ -1,0 +1,167 @@
+================================================================================
+OH-6A MOD - GITHUB SETUP QUICK START
+================================================================================
+
+✓ COMPLETED:
+  - Git repository initialized locally
+  - README.md created with full documentation
+  - LICENSE file added (All Rights Reserved)
+  - CONTRIBUTING.md for future contributors
+  - .gitignore configured for DCS files
+  - Initial commit created (615 files, v1.7)
+
+NEXT STEPS TO PUSH TO GITHUB:
+================================================================================
+
+1. CREATE GITHUB REPOSITORY
+   - Go to https://github.com/new
+   - Repository name: DCS-OH6A-Mod
+   - Visibility: Public (for sharing)
+   - Leave "Initialize repository" UNCHECKED
+   - Click "Create repository"
+
+2. SET UP AUTHENTICATION (Choose one)
+
+   Option A - Personal Access Token (Easier):
+   - GitHub Settings → Developer settings → Personal access tokens
+   - Generate new token (classic)
+   - Scopes: Check "repo"
+   - Copy token and save it
+
+   Option B - SSH (More secure):
+   - Follow GitHub's SSH guide: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
+3. PUSH YOUR CODE
+
+   Open PowerShell/Git Bash and run:
+
+   $ cd "C:\Users\YOUR-USERNAME\Saved Games\DCS\Mods\aircraft\OH-6A"
+
+   $ git remote add origin https://github.com/YOUR-USERNAME/DCS-OH6A-Mod.git
+   $ git branch -M main
+   $ git push -u origin main
+
+   (Replace YOUR-USERNAME with your GitHub username)
+   (Paste your personal access token when prompted for password)
+
+4. VERIFY
+   - Visit https://github.com/YOUR-USERNAME/DCS-OH6A-Mod
+   - Should see all files and folders
+   - README.md should render on the page
+
+5. UPDATE REFERENCES (Optional)
+   - Edit README.md
+   - Replace placeholder URLs with your actual GitHub URLs
+   - Commit and push: git add README.md && git commit -m "Update GitHub links" && git push
+
+================================================================================
+ONGOING DEVELOPMENT:
+================================================================================
+
+Making updates:
+  $ git add .
+  $ git commit -m "Brief description of changes"
+  $ git push origin main
+
+Creating a release (when you update the mod):
+  - Go to GitHub → Releases
+  - Create new release
+  - Tag: v1.7 (matches mod version)
+  - Users can download as ZIP
+
+================================================================================
+FOR WEAPONS PACK:
+================================================================================
+
+Option 1 - Separate Repository:
+  $ cd "C:\Users\YOUR-USERNAME\Saved Games\DCS\Mods\tech\OH-6A_Weaponpack"
+  $ git init
+  $ git add .
+  $ git commit -m "Initial commit: OH-6A Weapons Pack v1.2.0"
+  $ git remote add origin https://github.com/YOUR-USERNAME/DCS-OH6A-Weapons.git
+  $ git branch -M main
+  $ git push -u origin main
+
+Option 2 - Same Repository:
+  - Move both folders into one directory structure
+  - Keep in same git repo (more convenient)
+
+================================================================================
+TROUBLESHOOTING:
+================================================================================
+
+"fatal: not a git repository"
+  → You're in the wrong folder. Use: cd "C:\Users\YOUR-USERNAME\Saved Games\DCS\Mods\aircraft\OH-6A"
+
+"Authentication failed"
+  → Check that personal access token is correct (not your password)
+  → For SSH, verify key is registered on GitHub
+
+"remote origin already exists"
+  → git remote remove origin
+  → Then run the git remote add command again
+
+Files too large (>100MB)?
+  → Use Git LFS: git lfs install && git lfs track "*.dll"
+  → Or remove unnecessary files
+
+================================================================================
+HELPFUL LINKS:
+================================================================================
+
+Full setup guide: Read SETUP_GITHUB.md in this folder
+GitHub Docs: https://docs.github.com
+Git Documentation: https://git-scm.com/doc
+
+================================================================================
+YOUR REPOSITORY WILL CONTAIN:
+================================================================================
+
+✓ README.md
+  - Installation instructions
+  - Feature list
+  - Dependency information (weapons pack required)
+  - DCS version compatibility
+  - Troubleshooting guide
+  - FAQ
+
+✓ LICENSE
+  - All Rights Reserved (modify if needed)
+
+✓ CONTRIBUTING.md
+  - Guidelines for bug reports
+  - How to suggest features
+  - Code contribution process
+
+✓ .gitignore
+  - Prevents uploading logs, cache files, etc.
+
+✓ All 615 mod files
+  - Cockpit systems
+  - 3D models and textures
+  - Flight model binary (OH6.dll)
+  - Sound files
+  - Missions and configuration
+
+================================================================================
+ONCE PUBLISHED:
+================================================================================
+
+Users can:
+  - Clone: git clone https://github.com/YOUR-USERNAME/DCS-OH6A-Mod.git
+  - Download as ZIP from releases
+  - Report issues
+  - Follow development updates
+  - Watch for new releases
+
+You can:
+  - Track changes with commit history
+  - Tag releases (v1.7, v1.8, etc.)
+  - Accept contributions
+  - Collaborate with other developers
+
+================================================================================
+Current Status: READY TO PUSH TO GITHUB
+Last Updated: October 4, 2026
+Version: Aircraft 1.7, Weapons 1.2.0
+================================================================================
