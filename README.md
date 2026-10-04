@@ -26,25 +26,21 @@ The Hughes OH-6A Cayuse is a single-engine light helicopter. Its formal name is 
    git clone https://github.com/zbenesch/DCS-OH6A-Mod.git
    ```
 
-### Step 2: Extract to DCS Mods Folder
+### Step 2: Extract Aircraft Mod
 
 **For Windows:**
-```
-C:\Users\[YourUsername]\Saved Games\DCS\Mods\aircraft\
-```
-
-Extract the `OH-6A` folder here.
+Navigate to your extracted folder and copy:
+- `OH-6A` → `C:\Users\[YourUsername]\Saved Games\DCS\Mods\aircraft\`
 
 **For Linux/Mac:**
-```
-~/.local/share/DCS/Mods/aircraft/
-```
+- `OH-6A` → `~/.local/share/DCS/Mods/aircraft/`
 
 ### Step 3: Install Weapons Pack
-Extract the `OH-6A_Weaponpack` folder to:
-```
-C:\Users\[YourUsername]\Saved Games\DCS\Mods\tech\
-```
+
+From the downloaded repository folder, copy:
+- `OH-6A_Weaponpack` → `C:\Users\[YourUsername]\Saved Games\DCS\Mods\tech\`
+
+**Note**: Both folders are included in this repository. Extract to the correct DCS Mods subfolders.
 
 ### Step 4: Enable in DCS
 1. Launch DCS World
@@ -66,39 +62,55 @@ C:\Users\[YourUsername]\Saved Games\DCS\Mods\tech\
 - **Tested on**: 2.8.x, 2.9.x
 - **Recommended**: Latest stable DCS World release
 
-## Directory Structure
+## Repository Structure
 
 ```
-OH-6A/
-├── Cockpit/               # Cockpit systems and instruments
-│   └── Scripts/          # Lua scripts for cockpit functionality
-├── Data/                 # Cargo configuration files
-├── Encyclopedia/         # In-game documentation
-├── Input/               # Control bindings and input profiles
-├── ImagesGui/           # UI graphics and textures
-├── Kneeboard/           # Kneeboard pages
-├── Missions/            # Sample missions
-├── Options/             # Configuration options
-├── Shapes/              # 3D models and textures
-├── Sounds/              # Audio files
-├── Theme/               # Skin and livery data
-├── UnitPayloads/        # Weapon loadout definitions
-├── bin/                 # Compiled binaries
-│   ├── OH6.dll         # Flight model
-│   ├── OH6GunnerTools.dll
-│   ├── XH6GunnerTools.dll
-│   └── cefmRadio.dll   # Radio system
-├── OH6.lua             # Aircraft configuration
-├── Views.lua           # Camera view definitions
-├── Suspension.lua      # Landing gear physics
-├── comm.lua            # Communications system
-├── cargo_oh6.lua       # Cargo system
-└── entry.lua           # Module entry point
-
-OH-6A_Weaponpack/
-├── Weapons/            # Weapon definitions
-├── Encyclopedia/       # Weapons documentation
-└── entry.lua          # Weapons module entry point
+DCS-OH6A-Mod/
+├── OH-6A/                          # Aircraft Module
+│   ├── Cockpit/                   # Cockpit systems and instruments
+│   │   └── Scripts/               # Lua scripts for cockpit functionality
+│   ├── Data/                      # Cargo configuration files
+│   ├── Encyclopedia/              # In-game documentation
+│   ├── Input/                     # Control bindings and input profiles
+│   ├── ImagesGui/                 # UI graphics and textures
+│   ├── Kneeboard/                 # Kneeboard pages
+│   ├── Missions/                  # Sample missions
+│   ├── Options/                   # Configuration options
+│   ├── Shapes/                    # 3D models and textures
+│   ├── Sounds/                    # Audio files
+│   ├── Theme/                     # Skin and livery data
+│   ├── UnitPayloads/              # Weapon loadout definitions
+│   ├── bin/                       # Compiled binaries
+│   │   ├── OH6.dll               # Flight model
+│   │   ├── OH6GunnerTools.dll
+│   │   ├── XH6GunnerTools.dll
+│   │   └── cefmRadio.dll         # Radio system
+│   ├── OH6.lua                    # Aircraft configuration
+│   ├── Views.lua                  # Camera view definitions
+│   ├── Suspension.lua             # Landing gear physics
+│   ├── comm.lua                   # Communications system
+│   ├── cargo_oh6.lua              # Cargo system
+│   ├── entry.lua                  # Module entry point
+│   ├── README.md                  # Aircraft documentation
+│   └── (other config files)
+│
+├── OH-6A_Weaponpack/               # Weapons Module
+│   ├── Weapons/                   # Weapon definitions
+│   │   ├── OH-6_weapons.lua      # Main weapons
+│   │   ├── OH-6_grenades.lua     # Grenades
+│   │   ├── OH-6_rockets.lua      # Rockets
+│   │   ├── OH-6_gun.lua          # Guns
+│   │   ├── OH-6_cargo.lua        # Cargo definitions
+│   │   └── OH-6_special_gear.lua # Special equipment
+│   ├── Encyclopedia/              # Weapons documentation
+│   ├── entry.lua                  # Weapons module entry point
+│   └── README.md                  # Weapons documentation
+│
+├── README.md                       # Main installation guide (this file)
+├── LICENSE                         # License information
+├── CONTRIBUTING.md                 # Contributing guidelines
+├── SETUP_GITHUB.md                 # GitHub setup guide
+└── GITHUB_QUICK_START.txt          # Quick reference card
 ```
 
 ## Usage
