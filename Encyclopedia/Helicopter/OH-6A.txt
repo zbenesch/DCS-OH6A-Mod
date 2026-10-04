@@ -1,0 +1,32 @@
+OH-6A
+
+OH-6A
+
+
+Name: OH-6A Cayuse
+Type: Light Observation Helicopter (LOH)
+Crew: 2 (Pilot, Observer) + 2 passengers or cargo
+Length: 23' 0" (7.01 m) [Fuselage] / 30' 3" (9.22 m) [Rotors Turning]
+Rotor Diameter: 26' 4" (8.03 m)
+Height: 8' 2" (2.48 m)
+Disc Area: 545 ft² (50.6 m²)
+Max Speed at S/L: 130 kts (150 mph / 241 km/h)
+Max Speed at Altitude: ~115 kts (Cruise)
+Weight empty: 1,229 lb (557 kg)
+Max takeoff weight: 2,400 lb (1,090 kg)
+Max landing weight: 2,400 lb (1,090 kg)
+Normal G: +2.0 / -0.5 g
+G limit: +2.5 g (Structural Limit)
+Max range: 307 nmi (568 km)
+Combat Radius Internal Fuel: 415 lb (188 kg) / 62 US Gal
+Service ceiling: 15,800' (4,815 m)
+Powerplant: 1 x Allison T63-A-5A turboshaft (317 shp / 236 kW)
+
+Armament:
+
+    1 x M127 Minigun pod (7.62 mm) or 1 x M129 40 mm grenade launcher
+
+    Handheld smoke grenades and M16 rifles (crew operated)
+
+
+The OH-6A Cayuse, famously known as the "Loach" (derived from the LOH acronym), is a compact, teardrop-shaped scout helicopter that pioneered the light observation role for the U.S. Army. Entering service in 1966 during the Vietnam War, the OH-6A set 23 world records for speed, distance, and climbing, proving itself as an incredibly robust and survivable airframe. Its unique "egg" shaped fuselage acts as a reinforced roll cage, which gained a legendary reputation for protecting crews during the frequent crash landings associated with low-level scouting. In Vietnam, it often operated in "Pink Teams," acting as the bait to find enemy positions while an AH-1 Cobra loitered above to provide heavy fire support. Note: The OH-6A features a four-bladed main rotor and a distinct Y-tail (later changed to a T-tail in civilian MD 500 models) which provided excellent low-speed control but was sensitive to high-power torque settings. However, the aircraft is limited by its lack of sophisticated sensors; original Loach pilots relied on "Mark 1 Eyeballs" and flying at treetop level to spot footprints or disturbed foliage, making the mission profile extremely dangerous compared to modern unmanned scouts.

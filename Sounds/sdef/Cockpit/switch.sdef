@@ -1,0 +1,9 @@
+wave = "Effects/Aircrafts/Cockpit/switch.wav"
+
+gain = 0.5
+inner_radius = 1
+outer_radius = 4
+
+detached = true
+
+listmode = RANDOM

@@ -1,0 +1,589 @@
+dialog = {
+	["children"] = {
+		["containerPlugin"] = {
+			["children"] = {
+			
+				
+				------------ plane title ------------------------ 
+				["nameLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 18,
+							["w"] = 375,
+							["x"] = 57,
+							["y"] = 42,
+						},
+						["enabled"] = true,
+						["text"] = "$PLANENAME",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsTitleSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+
+				-------------------------------------------
+				["OH6TrimmingMethodLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 188,
+							["x"] = 57,
+							["y"] = 162,
+						},
+						["enabled"] = true,
+						["text"] = "Timming Mode",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsCaptionSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["OH6TrimmingMethodComboList"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 400,
+							["x"] = 273,
+							["y"] = 162,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "Item1",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "comboListSkin_options",
+						},
+					},
+					["type"] = "ComboList",
+				},
+				----------------------------------------------------------------
+			["OH6TrimFadeLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 25,
+							["w"] = 200,
+							["x"] = 57,
+							["y"] = 194,
+						},
+						["enabled"] = true,
+						["text"] = "Time to fade in trim in ms",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsCaptionSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["OH6TrimFadeSlider"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 200,
+							["x"] = 274,
+							["y"] = 194,
+						},
+						["enabled"] = true,
+						["pageStep"] = 0.1,
+						["range"] = {
+							["max"] = 500,
+							["min"] = 10,
+						},
+						["step"] = 5,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["value"] = 0,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "horzSliderSkin_options",
+						},
+					},
+					["type"] = "HorzSlider",
+				},
+				["OH6TrimFadeWidget"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 26,
+							["w"] = 41,
+							["x"] = 533,
+							["y"] = 194,
+						},
+						["enabled"] = true,
+						["text"] = "0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsSliderValueSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				------------Pedal Trim check box ---------------------
+				["OH6PedalTrimCheckbox"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 300,
+							["x"] = 57,
+							["y"] = 226,
+						},
+						["enabled"] = true,
+						["state"] = true,
+						["tabOrder"] = 0,
+						["text"] = "Use Pedaltrim",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+								["params"] = {
+											["name"] = "checkBoxSkin_options",
+											},
+								},
+					["type"] = "CheckBox",
+				},
+				------------ aiming mark check box ---------------------
+				["OH6AimingMarkCheckbox"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 300,
+							["x"] = 57,
+							["y"] = 300,
+						},
+						["enabled"] = true,
+						["state"] = true,
+						["tabOrder"] = 0,
+						["text"] = "Use Grease Pencil Mark instead of Gunsight",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+								["params"] = {
+											["name"] = "checkBoxSkin_options",
+											},
+								},
+					["type"] = "CheckBox",
+				},
+				-----------------------------------------------
+				["OH6AimingMarkOffsetLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 25,
+							["w"] = 200,
+							["x"] = 57,
+							["y"] = 338,
+						},
+						["enabled"] = true,
+						["text"] = "Aiming Marker Offset",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsCaptionSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["OH6AimingMarkOffsetSlider"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 200,
+							["x"] = 274,
+							["y"] = 338,
+						},
+						["enabled"] = true,
+						["pageStep"] = 2,
+						["range"] = {
+							["max"] = 100,
+							["min"] = -100,
+						},
+						["step"] = 1,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["value"] = 0,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "horzSliderSkin_options",
+						},
+					},
+					["type"] = "HorzSlider",
+				},
+				["OH6AimingMarkOffsetWidget"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 26,
+							["w"] = 41,
+							["x"] = 533,
+							["y"] = 338,
+						},
+						["enabled"] = true,
+						["text"] = "0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsSliderValueSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				----------------------------------------------------
+
+
+				--Buttonsesitivity-------------------------------------------------
+
+				["OH6CyclicButtonSensitivityLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 25,
+							["w"] = 200,
+							["x"] = 57,
+							["y"] = 390,
+						},
+						["enabled"] = true,
+						["text"] = "Cyclic Button Sensitivity",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsCaptionSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["OH6CyclicButtonSensitivitySlider"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 200,
+							["x"] = 274,
+							["y"] = 390,
+						},
+						["enabled"] = true,
+						["pageStep"] = 0.1,
+						["range"] = {
+							["max"] = 5.0,
+							["min"] = 0.05,
+						},
+						["step"] = 0.05,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["value"] = 0,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "horzSliderSkin_options",
+						},
+					},
+					["type"] = "HorzSlider",
+				},
+				["OH6CyclicButtonSensitivityWidget"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 26,
+							["w"] = 41,
+							["x"] = 533,
+							["y"] = 390,
+						},
+						["enabled"] = true,
+						["text"] = "0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsSliderValueSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+			----------------------------------------------------------------
+			["OH6PedalButtonSensitivityLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 25,
+							["w"] = 200,
+							["x"] = 57,
+							["y"] = 422,
+						},
+						["enabled"] = true,
+						["text"] = "Pedal Button Sensitivity",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsCaptionSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["OH6PedalButtonSensitivitySlider"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 200,
+							["x"] = 274,
+							["y"] = 422,
+						},
+						["enabled"] = true,
+						["pageStep"] = 0.1,
+						["range"] = {
+							["max"] = 5.0,
+							["min"] = 0.05,
+						},
+						["step"] = 0.05,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["value"] = 0,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "horzSliderSkin_options",
+						},
+					},
+					["type"] = "HorzSlider",
+				},
+				["OH6PedalButtonSensitivityWidget"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 26,
+							["w"] = 41,
+							["x"] = 533,
+							["y"] = 422,
+						},
+						["enabled"] = true,
+						["text"] = "0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsSliderValueSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+			----------------------------------------------------------------
+			["OH6CollectiveButtonSensitivityLabel"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 25,
+							["w"] = 200,
+							["x"] = 57,
+							["y"] = 454,
+						},
+						["enabled"] = true,
+						["text"] = "Collective Button Sensitivity",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsCaptionSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+				["OH6CollectiveButtonSensitivitySlider"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 30,
+							["w"] = 200,
+							["x"] = 274,
+							["y"] = 454,
+						},
+						["enabled"] = true,
+						["pageStep"] = 0.1,
+						["range"] = {
+							["max"] = 5.0,
+							["min"] = 0.05,
+						},
+						["step"] = 0.05,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["value"] = 0,
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "horzSliderSkin_options",
+						},
+					},
+					["type"] = "HorzSlider",
+				},
+				["OH6CollectiveButtonSensitivityWidget"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 26,
+							["w"] = 41,
+							["x"] = 533,
+							["y"] = 454,
+						},
+						["enabled"] = true,
+						["text"] = "0",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "staticOptionsSliderValueSkin",
+						},
+					},
+					["type"] = "Static",
+				},
+			----------------------------------------------------------------
+			
+			------------ Controls overlay check box ---------------------
+				["OH6ShowControlsCheckbox"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 300,
+							["x"] = 57,
+							["y"] = 510,
+						},
+						["enabled"] = true,
+						["state"] = true,
+						["tabOrder"] = 0,
+						["text"] = "Show Controls",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+								["params"] = {
+											["name"] = "checkBoxSkin_options",
+											},
+								},
+					["type"] = "CheckBox",
+				},
+
+			
+
+			------------ Crew Status overlay check box ---------------------
+				["OH6ShowCrewStatusCheckbox"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 24,
+							["w"] = 300,
+							["x"] = 57,
+							["y"] = 538,
+						},
+						["enabled"] = true,
+						["state"] = true,
+						["tabOrder"] = 0,
+						["text"] = "Show Crew Status",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+								["params"] = {
+											["name"] = "checkBoxSkin_options",
+											},
+								},
+					["type"] = "CheckBox",
+				},
+
+			},
+
+
+
+----------------------------------------------------------------
+			["params"] = {
+				["bounds"] = {
+					["h"] = 600,
+					["w"] = 974,
+					["x"] = 0,
+					["y"] = 0,
+				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 2,
+			},
+			["skin"] = {
+				["params"] = {
+					["name"] = "panelSkin",
+				},
+			},
+			["type"] = "Panel",
+		},
+	},
+	["params"] = {
+		["bounds"] = {
+			["h"] = 851,
+			["w"] = 1135,
+			["x"] = 0,
+			["y"] = 0,
+		},
+		["draggable"] = true,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 0,
+	},
+	["skin"] = {
+		["params"] = {
+			["name"] = "windowSkin",
+		},
+	},
+	["type"] = "Window",
+}

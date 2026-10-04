@@ -1,0 +1,8 @@
+model = {
+	lods = {	
+        {"cargo_oh6_pax.edm",60.000000},
+		{"cargo_oh6_pax_LOD1.edm",200.000000},
+		{"cargo_oh6_pax_LOD2.edm",8000.000000},
+	};
+	collision_shell="cargo_oh6_pax_collision.edm";
+}

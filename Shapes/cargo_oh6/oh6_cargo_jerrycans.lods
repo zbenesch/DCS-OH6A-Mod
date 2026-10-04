@@ -1,0 +1,7 @@
+model = {
+	lods = {		
+		{"oh6_cargo_jerrycans.edm",60.000000},
+		{"oh6_cargo_jerrycans_LOD1.edm",120.000000},
+		{"oh6_cargo_jerrycans_LOD2.edm",12000.000000},
+	};
+}

@@ -1,0 +1,5 @@
+wave = "Effects/Aircrafts/Cockpit/prep_green.wav"
+inner_radius = 10
+outer_radius = 100
+attack = 0.01
+gain = 0.3

@@ -1,0 +1,54 @@
+# DCS-specific files
+*.log
+dcs.log
+*.lua.bak
+*.lua~
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vim/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.temp
+*_temp.*
+
+# Build artifacts (if any)
+build/
+dist/
+*.o
+*.so
+*.a
+
+# Local development
+.env
+.local
+local_config.lua
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# DCS cache (should not be in repo)
+Cache/
+Cache.backup/
+
+# Mission editor temporary files
+*.miz.tmp
+*.miz~
