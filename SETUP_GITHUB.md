@@ -43,10 +43,10 @@ Open **Git Bash** or **PowerShell** in the OH-6A folder and run:
 
 ```bash
 # Navigate to the mod directory
-cd "C:\Users\YOUR-USERNAME\Saved Games\DCS\Mods\aircraft\OH-6A"
+cd "C:\Users\zbenesch\Saved Games\DCS\Mods\aircraft\OH-6A"
 
-# Add the remote repository (replace YOUR-USERNAME with your actual GitHub username)
-git remote add origin https://github.com/YOUR-USERNAME/DCS-OH6A-Mod.git
+# Add the remote repository (replace zbenesch with your actual GitHub username)
+git remote add origin https://github.com/zbenesch/DCS-OH6A-Mod.git
 
 # Rename branch to main (if needed)
 git branch -M main
@@ -64,11 +64,11 @@ The weapons pack should be in a separate GitHub repository or included as a subd
 ### Option A: Separate Repository
 Create another repo for weapons:
 ```bash
-cd "C:\Users\YOUR-USERNAME\Saved Games\DCS\Mods\tech\OH-6A_Weaponpack"
+cd "C:\Users\zbenesch\Saved Games\DCS\Mods\tech\OH-6A_Weaponpack"
 git init
 git add .
 git commit -m "Initial commit: OH-6A Weapons Pack v1.2.0"
-git remote add origin https://github.com/YOUR-USERNAME/DCS-OH6A-Weapons.git
+git remote add origin https://github.com/zbenesch/DCS-OH6A-Weapons.git
 git branch -M main
 git push -u origin main
 ```
@@ -85,7 +85,7 @@ Then update README.md with installation instructions for this structure.
 
 ## Step 5: Verify on GitHub
 
-1. Go to https://github.com/YOUR-USERNAME/DCS-OH6A-Mod
+1. Go to https://github.com/zbenesch/DCS-OH6A-Mod
 2. You should see:
    - All files and folders
    - README.md rendered on the main page
@@ -95,13 +95,13 @@ Then update README.md with installation instructions for this structure.
 
 Edit `README.md` and replace placeholders:
 
-- Line with `github.com/YOUR-USERNAME/` → your actual username
+- Line with `github.com/zbenesch/` → your actual username
 - Line with `.gitignore` template links → your repo URL
 
 Example:
 ```markdown
 # Before
-git clone https://github.com/YOUR-USERNAME/DCS-OH6A-Mod.git
+git clone https://github.com/zbenesch/DCS-OH6A-Mod.git
 
 # After
 git clone https://github.com/benesch/DCS-OH6A-Mod.git
@@ -157,7 +157,7 @@ git status  # Should work if in correct directory
 If you get "remote origin already exists":
 ```bash
 git remote remove origin
-git remote add origin https://github.com/YOUR-USERNAME/DCS-OH6A-Mod.git
+git remote add origin https://github.com/zbenesch/DCS-OH6A-Mod.git
 ```
 
 ### Large Files Error

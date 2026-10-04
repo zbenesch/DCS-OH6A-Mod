@@ -23,7 +23,7 @@ The Hughes OH-6A Cayuse is a single-engine light helicopter. Its formal name is 
 ### Step 1: Download the Mod
 1. Download this repository as a ZIP file, or clone it:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/DCS-OH6A-Mod.git
+   git clone https://github.com/zbenesch/DCS-OH6A-Mod.git
    ```
 
 ### Step 2: Extract to DCS Mods Folder
@@ -134,7 +134,7 @@ OH-6A_Weaponpack/
 
 ### Issue Reporting
 If you encounter bugs or have feature requests:
-1. Check [existing issues](https://github.com/YOUR-USERNAME/DCS-OH6A-Mod/issues)
+1. Check [existing issues](https://github.com/zbenesch/DCS-OH6A-Mod/issues)
 2. Create a new issue with:
    - DCS version number
    - Module version numbers

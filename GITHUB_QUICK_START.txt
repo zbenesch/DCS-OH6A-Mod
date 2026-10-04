@@ -35,17 +35,17 @@ NEXT STEPS TO PUSH TO GITHUB:
 
    Open PowerShell/Git Bash and run:
 
-   $ cd "C:\Users\YOUR-USERNAME\Saved Games\DCS\Mods\aircraft\OH-6A"
+   $ cd "C:\Users\zbenesch\Saved Games\DCS\Mods\aircraft\OH-6A"
 
-   $ git remote add origin https://github.com/YOUR-USERNAME/DCS-OH6A-Mod.git
+   $ git remote add origin https://github.com/zbenesch/DCS-OH6A-Mod.git
    $ git branch -M main
    $ git push -u origin main
 
-   (Replace YOUR-USERNAME with your GitHub username)
+   (Replace zbenesch with your GitHub username)
    (Paste your personal access token when prompted for password)
 
 4. VERIFY
-   - Visit https://github.com/YOUR-USERNAME/DCS-OH6A-Mod
+   - Visit https://github.com/zbenesch/DCS-OH6A-Mod
    - Should see all files and folders
    - README.md should render on the page
 
@@ -74,11 +74,11 @@ FOR WEAPONS PACK:
 ================================================================================
 
 Option 1 - Separate Repository:
-  $ cd "C:\Users\YOUR-USERNAME\Saved Games\DCS\Mods\tech\OH-6A_Weaponpack"
+  $ cd "C:\Users\zbenesch\Saved Games\DCS\Mods\tech\OH-6A_Weaponpack"
   $ git init
   $ git add .
   $ git commit -m "Initial commit: OH-6A Weapons Pack v1.2.0"
-  $ git remote add origin https://github.com/YOUR-USERNAME/DCS-OH6A-Weapons.git
+  $ git remote add origin https://github.com/zbenesch/DCS-OH6A-Weapons.git
   $ git branch -M main
   $ git push -u origin main
 
@@ -91,7 +91,7 @@ TROUBLESHOOTING:
 ================================================================================
 
 "fatal: not a git repository"
-  → You're in the wrong folder. Use: cd "C:\Users\YOUR-USERNAME\Saved Games\DCS\Mods\aircraft\OH-6A"
+  → You're in the wrong folder. Use: cd "C:\Users\zbenesch\Saved Games\DCS\Mods\aircraft\OH-6A"
 
 "Authentication failed"
   → Check that personal access token is correct (not your password)
@@ -148,7 +148,7 @@ ONCE PUBLISHED:
 ================================================================================
 
 Users can:
-  - Clone: git clone https://github.com/YOUR-USERNAME/DCS-OH6A-Mod.git
+  - Clone: git clone https://github.com/zbenesch/DCS-OH6A-Mod.git
   - Download as ZIP from releases
   - Report issues
   - Follow development updates
